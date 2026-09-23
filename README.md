@@ -1,6 +1,10 @@
 # Yijie Wang — academic website
 
-A responsive, plain HTML/CSS academic website for **https://yjwangutexas.github.io/**. No build step, JavaScript, external fonts, or third-party services are required.
+A responsive, plain HTML/CSS academic website for **https://yjwangutexas.github.io/**. No build step or external fonts are required. Cloudflare Web Analytics uses a JavaScript beacon for traffic statistics; the page content works without JavaScript.
+
+## Traffic analytics
+
+Cloudflare Web Analytics is installed at the end of `index.html`. Reports are available in the owner's Cloudflare dashboard; no traffic counts or reports are displayed on the public homepage. The beacon token is a public collection identifier, not a credential for viewing reports. Analytics begin after installation and may miss visits when the beacon is blocked.
 
 ## Deployment checklist
 
